@@ -1,0 +1,12 @@
+<!-- res/drawable/circle_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 배경색은 비어 있음 (테두리만 있는 효과를 얻기 위해) -->
+    <stroke
+        android:width="2dp"
+        android:color="#000080" />
+    <size
+        android:width="200dp"
+        android:height="200dp"
+    />
+</shape>

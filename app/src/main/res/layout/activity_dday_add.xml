@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DdayAddActivity">
+
+    <!-- 로고 이미지뷰 -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/plan_it_logo"
+        android:contentDescription="@string/logo_content_description" />
+
+    <!-- 디데이명 입력란 -->
+    <EditText
+        android:id="@+id/ddayNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="디데이명을 입력하세요" />
+
+    <!-- 디데이 날짜 선택 버튼 -->
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ddayNameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="디데이 날짜 선택"
+        android:onClick="onSelectDateButtonClick" />
+
+    <!-- 선택된 디데이 날짜 표시 -->
+    <TextView
+        android:id="@+id/selectedDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectDateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="@android:color/darker_gray" />
+
+    <!-- 디데이 추가 버튼 -->
+    <Button
+        android:id="@+id/addDdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectedDateTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="디데이 추가"
+        android:onClick="onAddDdayButtonClick" />
+
+</RelativeLayout>

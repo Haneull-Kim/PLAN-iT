@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 로고 이미지뷰 -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/plan_it_logo"
+        android:contentDescription="@string/logo_content_description" />
+
+    <!-- 캘린더 뷰 -->
+    <CalendarView
+        android:id="@+id/calendarview"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:mcv_tileSize="53dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="31dp"
+        app:mcv_showOtherDates="all" />
+
+    <!-- 타이머 버튼 -->
+    <Button
+        android:id="@+id/timerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="40dp"
+        android:text="Timer" />
+
+    <!-- 체크리스트 버튼 -->
+    <Button
+        android:id="@+id/CheckListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="150dp"
+        android:text="CheckList" />
+
+    <!-- 디데이 버튼 -->
+    <Button
+        android:id="@+id/DdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="280dp"
+        android:text="D-day" />
+
+</RelativeLayout>

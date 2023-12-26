@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckListActivity">
+
+    <!-- 로고 이미지뷰 -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/plan_it_logo"
+        android:contentDescription="@string/logo_content_description" />
+
+    <!-- 타이틀을 표시할 TextView -->
+    <TextView
+        android:id="@+id/CheckListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Check List"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_purple" />
+
+    <!-- 뒤로가기 버튼 -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="280dp"
+        android:text="뒤로가기"
+        android:onClick="goBack" />
+
+    <!-- 선택한 날짜를 표시할 TextView -->
+    <TextView
+        android:id="@+id/DateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CheckListTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Date"
+        android:textSize="18sp" />
+
+    <!-- 체크리스트 아이템을 표시할 리스트뷰 -->
+    <ListView
+        android:id="@+id/checklistListView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_below="@id/DateTextView"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="100dp" />
+
+    <!-- 체크리스트 추가 버튼 -->
+    <Button
+        android:id="@+id/addChecklistButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checklistListView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="체크리스트 추가"
+        android:onClick="addChecklistItemButton" />
+
+</RelativeLayout>

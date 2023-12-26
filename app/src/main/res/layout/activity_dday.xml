@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckListActivity">
+
+<!-- 로고 이미지뷰 -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/plan_it_logo"
+        android:contentDescription="@string/logo_content_description" />
+
+    <!-- 타이틀을 표시할 TextView -->
+    <TextView
+        android:id="@+id/DdayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="D - day"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_purple" />
+
+
+    <!-- 뒤로가기 버튼 -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="280dp"
+        android:text="뒤로가기"
+        android:onClick="goBack" />
+
+    <!-- 디데이 항목을 표시할 리스트뷰 -->
+    <ListView
+        android:id="@+id/ddayListView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_below="@id/DdayTitle"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <!-- 디데이 추가 버튼 -->
+    <Button
+        android:id="@+id/addDdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ddayListView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="디데이 추가"
+        android:onClick="onAddDdayButtonClick" />
+
+</RelativeLayout>

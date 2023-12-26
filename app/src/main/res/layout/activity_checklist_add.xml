@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChecklistAddActivity">
+
+    <!-- 로고 이미지뷰 -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/plan_it_logo"
+        android:contentDescription="@string/logo_content_description" />
+
+    <!-- 할 일 입력란 -->
+    <EditText
+        android:id="@+id/checklistItemEditText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:hint="할 일을 입력하세요" />
+
+    <!-- 추가 버튼 -->
+    <Button
+        android:id="@+id/addChecklistItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checklistItemEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="추가"
+        android:onClick="onAddChecklistItemButtonClick" />
+
+</RelativeLayout>

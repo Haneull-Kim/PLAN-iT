@@ -1,0 +1,29 @@
+<!-- checklist_item_layout.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- 체크박스 -->
+    <CheckBox
+        android:id="@+id/checklistCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <!-- 할 일 텍스트 -->
+    <TextView
+        android:id="@+id/checklistItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/checklistCheckBox"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
