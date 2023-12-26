@@ -12,7 +12,7 @@
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/793d85f7-77cf-4363-ba0b-0956f49973fd" width="150" heigh="320">
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/0d10ac12-f757-40d1-bf62-d23668f00162" width="150" heigh="320">
 
-- Check list 하단 날짜 선택시 해당 날짜의 체크리스트 확인 가능
+- "Check list" 하단 날짜 선택시 해당 날짜의 체크리스트 확인 가능
 - 기본 화면은 현재 날짜
 
 
@@ -31,6 +31,10 @@
 
 ## D-Day
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/b2517fe9-3cf3-4f04-bc57-308a2e948cbd" width="150" heigh="320">
+<img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/cbc46a79-93ba-426d-b03b-c502f0a8a5e5" width="156" heigh="320">
+
+- 메인 프레임에서 디데이 버튼 클릭시 등록된 디데이가 푸쉬 알림으로 전달
+
 
 
 ## Add D-Day
@@ -48,9 +52,5 @@
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/0671d6e5-f128-4d44-a175-ba2235bae84b" width="150" heigh="320">
 
 - 디데이 삭제 알림
-
-<img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/cbc46a79-93ba-426d-b03b-c502f0a8a5e5" img width="156">
-
-- 메인 프레임에서 디데이 버튼 클릭시 등록된 디데이가 푸쉬 알림으로 전달
 
 
