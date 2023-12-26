@@ -1,7 +1,7 @@
 # PLAN-iT
 
 ## Main Frame
-<src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/2421b058-4353-403e-ad5f-a0ad4647587c" img width="156">
+<img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/2421b058-4353-403e-ad5f-a0ad4647587c" img width="156">
 
 
 ## Timer
