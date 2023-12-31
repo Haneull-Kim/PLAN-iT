@@ -47,11 +47,9 @@
 
 ## Delete D-Day
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/53402307-51f5-4735-a452-21394381dc17" width="30%" heigh="70%">
-
-- 디데이 길게 선택시 삭제 확인 창 표시
-
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/0671d6e5-f128-4d44-a175-ba2235bae84b" width="30%" heigh="70%">
 
+- 디데이 길게 선택시 삭제 확인 창 표시
 - 디데이 삭제 알림
 
 
