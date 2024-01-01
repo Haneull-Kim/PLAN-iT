@@ -20,7 +20,6 @@
 ## Add Check List 
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/d273a5b3-d571-41ba-9298-1478361a2934" width="30%" heigh="70%">
 
-- 영어만 가능
 
 ## Delete Check List
 <img src="https://github.com/Haneull-Kim/PLAN-iT/assets/143999813/c73e3a10-97c6-4c7b-924d-5ce74fa22b01" width="30%" heigh="70%">
